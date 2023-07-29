@@ -23,7 +23,7 @@ spec:
     spec: # Pod spec
       containers:
       - name: amazon-container
-        image: reinelaudia/claudia-amazon:latest
+        image: reinelaudia/claudia-amazon:3
         ports:
         - containerPort: 3000
         
